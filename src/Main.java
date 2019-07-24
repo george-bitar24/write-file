@@ -12,8 +12,8 @@ public class Main {
 
         FileWriter fileWriter = new FileWriter(file,true);
         BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
-        String input = "hello malaka";
-        String input2 = "hello mounoskylo";
+        String input = "hello ";
+        String input2 = "hello 2";
         bufferedWriter.newLine();
 
         bufferedWriter.write(input);
